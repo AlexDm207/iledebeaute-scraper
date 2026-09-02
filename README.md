@@ -8,11 +8,21 @@
 python -m pip install -r requirements.txt
 ```
 
-## Запуск
+## Запуск минимального скрапера
 
 ```bash
-python scraper.py
+python scraper_iledebeaute.py
 ```
+
+Для PowerShell с проектным окружением:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r .\requirements.txt
+python .\scraper_iledebeaute.py
+```
+
+Результат записывается в `products.jsonl`. Каждая строка содержит только `name`, `url`, `current_price` и `old_price`.
 
 ## Что проверять
 
@@ -23,6 +33,7 @@ python scraper.py
 
 ## Структура
 
-- `scraper.py` — базовый парсер каталога;
+- `scraper_iledebeaute.py` — основной минимальный парсер каталога;
+- `scraper.py` — старая экспериментальная версия;
 - `requirements.txt` — зависимости;
 - `README.md` — краткая инструкция.
