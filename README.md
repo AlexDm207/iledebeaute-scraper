@@ -34,6 +34,5 @@ python .\scraper_iledebeaute.py
 ## Структура
 
 - `scraper_iledebeaute.py` — основной минимальный парсер каталога;
-- `scraper.py` — старая экспериментальная версия;
 - `requirements.txt` — зависимости;
 - `README.md` — краткая инструкция.
